@@ -1,0 +1,22 @@
+{
+    "name": "originera/wechat",
+    "description": "SDK for wechat",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Originera\\Wechat\\": "src/",
+            "Originera\\Wechat\\General\\": "src/general/"
+        }
+    },
+    "authors": [
+        {
+            "name": "cps",
+            "email": "cps_1993@126.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "7.4.x-dev"
+    }
+}
